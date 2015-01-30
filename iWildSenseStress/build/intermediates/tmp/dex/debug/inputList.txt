@@ -1,0 +1,2 @@
+C:\Users\Matteo\AndroidStudioProjects\iWildSenseStress\iWildSenseStress\build\intermediates\classes\debug
+C:\Users\Matteo\AndroidStudioProjects\iWildSenseStress\iWildSenseStress\build\intermediates\pre-dexed\debug\support-v4-19.1.0-f6521348b5b1e7c0a0381daf1fd160d25a8302f0.jar

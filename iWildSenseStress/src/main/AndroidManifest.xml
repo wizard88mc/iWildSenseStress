@@ -1,0 +1,78 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ch.qol.unige.iwildsensestress"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="ch.qol.unige.iwildsensestress.app.MainActivity"
+            android:label="Main Activity"
+            android:theme="@android:style/Theme.NoDisplay">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ch.qol.unige.iwildsensestress.esm.Survey"
+            android:label="@string/label_survey" />
+            <!--android:theme="@android:style/Theme.Holo.Light.Dialog" />-->
+
+        <activity
+            android:name="ch.qol.unige.iwildsensestress.esm.SurveyHelp"
+            android:label="@string/help"
+            android:parentActivityName="ch.qol.unige.iwildsensestress.esm.Survey">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ch.qol.unige.iwildsensestress.esm.Survey" />
+        </activity>
+        
+        <activity 
+            android:name="ch.qol.unige.iwildsensestress.questionnaire.Questionnaire"
+            android:label="@string/title_questionnaire" />
+            <!--android:theme="@android:style/Theme.Holo.Light.Dialog" />-->
+        <activity android:name="ch.qol.unige.iwildsensestress.questionnaire.QuestionnaireHelp"
+            android:label="@string/help"
+            android:parentActivityName="ch.qol.unige.iwildsensestress.questionnaire.Questionnaire" >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ch.qol.unige.iwildsensestress.questionnaire.Questionnaire" />
+        </activity>
+        
+        <receiver android:name="ch.qol.unige.iwildsensestress.notification_manager.AllAlarmsManager">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="ch.qol.unige.iwildsensestress.SETUP_ALARMS" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="ch.qol.unige.iwildsensestress.app.AnswersQuestionsManager">
+            <intent-filter>
+                <action android:name="esm.survey.answers.DONE" />
+                <action android:name="esm.survey.answers.DISCARD" />
+                <action android:name="esm.questionnaire.answer.DISCARD" />
+                <action android:name="esm.questionnaire.answer.DONE" />
+            </intent-filter>
+        </receiver>
+        
+        <service android:name="ch.qol.unige.iwildsensestress.notification_manager.AlarmSurveyManager" />
+
+        <service android:name="ch.qol.unige.iwildsensestress.notification_manager.AlarmFinalQuestionnaireManager" />
+        
+    </application>
+
+</manifest>

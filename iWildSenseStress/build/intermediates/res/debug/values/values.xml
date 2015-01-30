@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Matteo/AndroidStudioProjects/iWildSenseStress/iWildSenseStress/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="l_font_size">25sp</dimen>
+    <dimen name="l_font_size_dip">23dip</dimen>
+    <dimen name="low_margin_value">2dip</dimen>
+    <dimen name="m_font_size">20sp</dimen>
+    <dimen name="m_font_size_dip">18dip</dimen>
+    <dimen name="margin_between_widgets">10dip</dimen>
+    <dimen name="margin_buttons_dialog">5dip</dimen>
+    <dimen name="medium_margin">5dip</dimen>
+    <dimen name="minimum_margin_widget">20dp</dimen>
+    <dimen name="s_font_size">11dip</dimen>
+    <dimen name="s_font_size_dip">14dip</dimen>
+    <dimen name="xl_font_size">30sp</dimen>
+    <dimen name="xl_font_size_dip">28dip</dimen>
+    <dimen name="xs_font_size">7dip</dimen>
+    <dimen name="xxl_font_size">55sp</dimen>
+    <!-- From: file:/C:/Users/Matteo/AndroidStudioProjects/iWildSenseStress/iWildSenseStress/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="OK">OK</string>
+    <string name="app_name">iWildSenseStress</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm!</string>
+    <string name="description_conclusions">Once finished, just click on "Confirm!" and everything will be saved.</string>
+    <string name="description_how_to_use">What you can see listed are all the time interavals of the day that you marked as stressed. Clicking on the different times, it is possible to correct them and make it more adherent to the reality.</string>
+    <string name="description_why">With this questionnaire, we ask you to be more precise to mark time interval of the day when you were stressed.</string>
+    <string name="description_why_survey">With this question, we ask you your psychological state among your last two hours.</string>
+    <string name="discard">Discard</string>
+    <string name="done">Done!</string>
+    <string name="energy_explanation"><b>Energy:</b> how much active you feel, 1 (not active) 5 (too active)</string>
+    <string name="first_line_what_survey">Yes, Energy, Valence and Stress is what we would like to know.</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="from">From: </string>
+    <string name="help">Help</string>
+    <string name="high_energy">High energy</string>
+    <string name="how_do_you_feel">How did you feel in the last two hours???</string>
+    <string name="label_survey">Question</string>
+    <string name="low_energy">Low energy</string>
+    <string name="missing_answers_survey">Some answers are missing. Please check and retry.</string>
+    <string name="negative_valence">Negative valence</string>
+    <string name="not_stressed">Not stressed</string>
+    <string name="notification_questionnaire_text">Complete our questionnaire about your day!</string>
+    <string name="notification_questionnaire_title">Let\'s talk about your day...</string>
+    <string name="notification_text">Please help us answering these easy questions...</string>
+    <string name="notification_title">We have a question for you...</string>
+    <string name="one">1</string>
+    <string name="positive_valence">Positive valence</string>
+    <string name="questionnaire_image_description">Screenshot of the questionnaire provided to the participant</string>
+    <string name="stress_explanation"><b>Stress:</b> how much stressed you feel: 1 (not stressed) 5 (very stressed)</string>
+    <string name="stress_value">Stress: </string>
+    <string name="stressed">Stressed</string>
+    <string name="subtitle_questionnaire">During the day you marked some hours as stressed. If you were stressed during only a part of the time interval, could you specify it here?</string>
+    <string name="three">3</string>
+    <string name="title_how_to_use">How should I use it?</string>
+    <string name="title_questionnaire">Daily questionnaire</string>
+    <string name="title_survey_help">What do we want to know?</string>
+    <string name="title_what_survey">Energy, Valence and Stress?</string>
+    <string name="title_why">What is this for?</string>
+    <string name="to">To: </string>
+    <string name="two">2</string>
+    <string name="valence_explanation"><b>Valence:</b> how good are your feelings: 1 (negative feelings) 5 (positive feelings)</string>
+    <!-- From: file:/C:/Users/Matteo/AndroidStudioProjects/iWildSenseStress/iWildSenseStress/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

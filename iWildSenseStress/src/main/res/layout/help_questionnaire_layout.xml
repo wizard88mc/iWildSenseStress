@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dip">
+
+    <TextView
+        android:id="@+id/title_why"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_why"
+        android:textSize="@dimen/xl_font_size_dip"
+        android:layout_marginBottom="@dimen/medium_margin"/>
+
+    <TextView
+        android:id="@+id/description_why"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description_why"
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textSize="@dimen/s_font_size_dip"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_how_to_use"
+        android:textSize="@dimen/xl_font_size_dip"
+        android:layout_marginBottom="@dimen/medium_margin"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/medium_margin">
+
+        <ImageView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:src="@drawable/screenshot_help_questionnaire"
+            android:contentDescription="@string/questionnaire_image_description"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:padding="1dip"
+            android:background="#000000"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description_how_to_use"
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:textSize="@dimen/s_font_size_dip"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description_conclusions"
+        android:textSize="@dimen/s_font_size_dip"/>
+
+</LinearLayout>

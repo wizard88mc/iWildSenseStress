@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iWildSenseStress</string>
+    <string name="how_do_you_feel">Comment vous sentiez-vous dans les deux demières heures???</string>
+    <string name="label_survey">Question</string>
+    <string name="negative_valence">Valence négative</string>
+    <string name="positive_valence">Valence positive</string>
+    <string name="low_energy">Basse énergy</string>
+    <string name="high_energy">Haute énergy</string>
+    <string name="stressed">Stressé</string>
+    <string name="not_stressed">Non stressé</string>
+    <string name="discard">Défausser</string>
+    <string name="OK">OK</string>
+    <string name="done">Fini!</string>
+    <string name="missing_answers_survey">Certaines résponses sont manquantes.Vérifier et réessayer se il vous plait.</string>
+    <string name="notification_title">Nous avons une question pour vous...</string>
+    <string name="notification_text">Se il vous plait nous aider à répondre à ces questions faciles...</string>
+    <string name="notification_questionnaire_title">Parlons de votre journée...</string>
+    <string name="notification_questionnaire_text">Remplissez notre questionnaire sur votre jour!</string>
+    <string name="title_questionnaire">Questionnaire quotidien</string>
+    <string name="subtitle_questionnaire">Pendant la journée, vous avez marque quelques heures comme l\' souligné. Si vous étiez stressé que pendant une parie de l\'intervalle de temps, pourriez-vous préciser ici?</string>
+    <string name="from">De: </string>
+    <string name="to">à: </string>
+    <string name="stress_value">Stress: </string>
+    <string name="confirm">Confirmer!</string>
+    <string name="cancel">Annuler</string>
+    <string name="help">Aidez-Moi</string>
+</resources>

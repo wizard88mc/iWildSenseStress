@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iWildSenseStress</string>
+	<string name="how_do_you_feel">How did you feel in the last two hours???</string>
+	<string name="label_survey">Question</string>
+	<string name="negative_valence">Negative valence</string>
+	<string name="one">1</string>
+	<string name="two">2</string>
+	<string name="three">3</string>
+	<string name="four">4</string>
+	<string name="five">5</string>
+	<string name="positive_valence">Positive valence</string>
+	<string name="low_energy">Low energy</string>
+	<string name="high_energy">High energy</string>
+	<string name="stressed">Stressed</string>
+	<string name="not_stressed">Not stressed</string>
+	<string name="discard">Discard</string>
+	<string name="OK">OK</string>
+	<string name="done">Done!</string>
+	<string name="missing_answers_survey">Some answers are missing. Please check and retry.</string>
+	<string name="notification_title">We have a question for you...</string>
+	<string name="notification_text">Please help us answering these easy questions...</string>
+	<string name="notification_questionnaire_title">Let\'s talk about your day...</string>
+	<string name="notification_questionnaire_text">Complete our questionnaire about your day!</string>
+	<string name="title_questionnaire">Daily questionnaire</string>
+	<string name="subtitle_questionnaire">During the day you marked some hours as stressed. If you were stressed during only a part of the time interval, could you specify it here?</string>
+	<string name="from">From: </string>
+	<string name="to">To: </string>
+	<string name="stress_value">Stress: </string>
+	<string name="confirm">Confirm!</string>
+    <string name="cancel">Cancel</string>
+    <string name="help">Help</string>
+    <string name="title_why">What is this for?</string>
+    <string name="description_why">With this questionnaire, we ask you to be more precise to mark time interval of the day when you were stressed.</string>
+    <string name="title_how_to_use">How should I use it?</string>
+    <string name="description_how_to_use">What you can see listed are all the time interavals of the day that you marked as stressed. Clicking on the different times, it is possible to correct them and make it more adherent to the reality.</string>
+    <string name="description_conclusions">Once finished, just click on "Confirm!" and everything will be saved.</string>
+    <string name="questionnaire_image_description">Screenshot of the questionnaire provided to the participant</string>
+    <string name="title_survey_help">What do we want to know?</string>
+    <string name="description_why_survey">With this question, we ask you your psychological state among your last two hours.</string>
+    <string name="title_what_survey">Energy, Valence and Stress?</string>
+    <string name="first_line_what_survey">Yes, Energy, Valence and Stress is what we would like to know.</string>
+    <string name="energy_explanation"><b>Energy:</b> how much active you feel, 1 (not active) 5 (too active)</string>
+    <string name="valence_explanation"><b>Valence:</b> how good are your feelings: 1 (negative feelings) 5 (positive feelings)</string>
+    <string name="stress_explanation"><b>Stress:</b> how much stressed you feel: 1 (not stressed) 5 (very stressed)</string>
+</resources>

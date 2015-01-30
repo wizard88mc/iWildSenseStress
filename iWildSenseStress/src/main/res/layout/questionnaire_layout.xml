@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/title_questionnaire"
+        android:textSize="@dimen/xl_font_size"/>-->
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_questionnaire"
+        android:textSize="@dimen/m_font_size"
+        android:layout_marginTop="10dip" />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout 
+            android:id="@+id/listStress" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dip">
+            
+        </LinearLayout>
+        
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="2"
+        style="?android:attr/buttonBarStyle">
+
+        <Button
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="onBtnCancelClicked"
+            android:layout_margin="@dimen/margin_buttons_dialog"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/btnConfirmData"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/confirm"
+            android:onClick="onBtnConfirmClicked"
+            android:layout_margin="@dimen/margin_buttons_dialog"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
